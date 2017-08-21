@@ -23,4 +23,4 @@ I'm interested in contributing to open source projects such as:
 
 ### Contact
 
-I can be reached at `seth.gillett@gmail.com`, or just comment on any of my repositories. I don't know what the heck I'm doing so any starter guide would be very appreciated.
+I can be reached at `seth.gillett@gmail.com`, or just comment on any of my repositories. I am a novice to coding and building websites, so any help would be greatly appreciated. Thanks!
