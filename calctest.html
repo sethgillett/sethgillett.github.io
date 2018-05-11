@@ -15,7 +15,7 @@ body {
 </style>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
-$("#iframe1").blur(function() {
+$($("#iframe1").contentWindow || $("#iframe1").contentDocument).blur(function() {
   alert("User has left the window.");
 });
 </script>
