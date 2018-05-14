@@ -41,8 +41,8 @@ function draw() {
 			chosenText += "RED";
 			bgcolor = color(255,0,0);
 		} else if (chosen < 2) {
-			chosenText += "ORANGE";
-			bgcolor = color(255,170,0);
+			chosenText += "PURPLE";
+			bgcolor = color(130,0,206);
 		} else if (chosen < 3) {
 			chosenText += "BLUE";
 			bgcolor = color(0,0,255);
@@ -64,7 +64,7 @@ function keyPressed() {
 		chosen = 0.5;
 		keyDecided = true;
 	}
-	else if (key === 'O') {
+	else if (key === 'P') {
 		chosen = 1.5;
 		keyDecided = true;
 	}
