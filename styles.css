@@ -1,0 +1,81 @@
+/* Reset some default styles */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header navigation */
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li.logo {
+    font-size: 20px;
+    color: red;
+}
+
+nav ul li.logo span {
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Hero section */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.hero .overlay {
+    position: absolute;
+    text-align: center;
+}
+
+.hero h1 {
+    color: black;
+    font-size: 3rem;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.8);
+    margin-top: -100px;
+}
